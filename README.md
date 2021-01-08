@@ -28,14 +28,14 @@ Here are some ideas to get you started:
 <!-- BLOG-POST-LIST:START -->
 - 2020-12-11 : [**Anonymous CompletableFuture threads with burstable pods**](https://blog.arkey.fr/2020/12/11/completablefuture-with-burstable-pods/)  
     <blockquote>
-<p>It all started when opening a JFR recording, I noticed a very large and growing number of very short lived threads.</p>
-</div>
+It all started when opening a JFR recording, I noticed a very large and growing number of very short lived threads.
+
 </blockquote>  
 
 - 2020-11-30 : [**Off-Heap memory reconnaissance**](https://blog.arkey.fr/2020/11/30/off-heap-reconnaissance/)  
     <blockquote>
-<p>Understand the RSS of a JVM leveraging the horsepower underneath <code>ps</code> with the help of one or two JVM diagnostic command.</p>
-</div>
+Understand the RSS of a JVM leveraging the horsepower underneath <code>ps</code> with the help of one or two JVM diagnostic command.
+
 </blockquote>  
 
 - 2020-10-26 : [**MaxRamPercentage is not what I wished for**](https://blog.arkey.fr/2020/10/27/maxrampercentage-is-not-what-i-wished-for/)  
