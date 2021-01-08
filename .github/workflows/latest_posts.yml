@@ -17,7 +17,7 @@ jobs:
          date_format: yyyy-mm-dd
          tag_post_pre_newline: true
          item_exec: |
-                    post.description = post.description.replace(/^\s+|\s+$/g, '')
+                    post.description = post.description.replace(/(?:\r\n|\r|\n)/, '').replace(/(?:\r\n|\r|\n)+$/, '')
                                                        .replace(/(?:\r\n|\r|\n)/g, '<br>')
                                                        .replace(/<\/?(div|p)[^>]*>/g, '')
                                                        .trim();
