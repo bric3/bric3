@@ -20,5 +20,6 @@ jobs:
                     post.description = post.description.replace(/(?:\\r\\n|\\r|\\n)/g,' ')
                                                        .replace(/<\/?(div|p)[^>]*>/g, '')
                                                        .trim();
+                    console.log("desc : '" + post.description + "'")
 
                     
