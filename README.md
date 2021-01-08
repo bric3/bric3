@@ -2,7 +2,7 @@
 
 # Get in touch
 
-- Blog (en|fr) : https://blog.arkey.fr/
+- Blog [en|fr] : https://blog.arkey.fr/
 - Twitter : https://twitter.com/BriceDutheil
 - LinkedIn : https://linkedin.com/in/dutheilbrice
 - Speakerdeck : https://speakerdeck.com/bric3
