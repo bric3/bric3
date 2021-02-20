@@ -26,6 +26,9 @@ Here are some ideas to get you started:
 
 # Latest blog posts
 <!-- BLOG-POST-LIST:START -->
+- 2021-02-20 : [**A practical look at JEP-389 in JDK16 with libsodium**](https://blog.arkey.fr/2021/02/20/a-practical-look-at-jep-389-in-jdk16-with-libsodium/)  
+    <blockquote>JDK 16 is coming and with the incubating JEP-389, let’s have a practical look at this API that should supersede JNI.<br></blockquote>  
+
 - 2020-12-11 : [**Anonymous CompletableFuture threads with burstable pods**](https://blog.arkey.fr/2020/12/11/completablefuture-with-burstable-pods/)  
     <blockquote>It all started when opening a JFR recording, I noticed a very large and growing number of very short lived threads.<br></blockquote>  
 
@@ -52,9 +55,6 @@ Here are some ideas to get you started:
 
 - 2020-04-01 : [**Gestion des dotfiles et des secrets avec chezmoi**](https://blog.arkey.fr/2020/04/01/manage_dotfiles_with_chezmoi.fr/)  
     <blockquote>Régulièrement il nous arrive d&rsquo;avoir à re-configurer une nouvelle machine, avec notamment la re-configuration des fichiers du $HOME. Il y a plusieurs approches et outils, faire une simple archive, utiliser git pour le répertoire $HOME, utiliser des outils comme GNU stow, etc.</blockquote>  
-
-- 2020-04-01 : [**Managing dotfiles and secret with chezmoi**](https://blog.arkey.fr/2020/04/01/manage_dotfiles_with_chezmoi/)  
-    <blockquote>Every once in a while, you may need to bootstrap a new machine, and along with it to reconfigure home directory&rsquo;s dot files. Various approaches already exist, using simple archive, git the home directory, gnu stow (symlinks), etc.</blockquote>  
 
 
 <!-- BLOG-POST-LIST:END -->
