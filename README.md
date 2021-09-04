@@ -26,6 +26,9 @@ Here are some ideas to get you started:
 
 # Latest blog posts
 <!-- BLOG-POST-LIST:START -->
+- 2021-09-04 : [**A practical look at JEP-412 in JDK17 with libsodium**](https://blog.arkey.fr/2021/09/04/a-practical-look-at-jep-412-in-jdk17-with-libsodium/)  
+    <blockquote>JDK 17 is coming and with the incubating JEP-412, let’s have a practical look at this API that should supersede JNI.<br></blockquote>  
+
 - 2021-02-20 : [**A practical look at JEP-389 in JDK16 with libsodium**](https://blog.arkey.fr/2021/02/20/a-practical-look-at-jep-389-in-jdk16-with-libsodium/)  
     <blockquote>JDK 16 is coming and with the incubating JEP-389, let’s have a practical look at this API that should supersede JNI.<br></blockquote>  
 
@@ -52,9 +55,6 @@ Here are some ideas to get you started:
 
 - 2020-04-20 : [**Migrating From Jekyll to Hugo, deploying with Github Pages**](https://blog.arkey.fr/2020/04/20/migrating-from-jekyll-to-hugo-deploying-with-github-pages/)  
     <blockquote>Moving away form Jekyll. Import is easy, but tackling important details (conserve links to article, conserve comments, migrate some jekyll liquid template, theme tweaking deployment) has been challenging sometime.</blockquote>  
-
-- 2020-04-01 : [**Gestion des dotfiles et des secrets avec chezmoi**](https://blog.arkey.fr/2020/04/01/manage_dotfiles_with_chezmoi.fr/)  
-    <blockquote>Régulièrement il nous arrive d&rsquo;avoir à re-configurer une nouvelle machine, avec notamment la re-configuration des fichiers du $HOME. Il y a plusieurs approches et outils, faire une simple archive, utiliser git pour le répertoire $HOME, utiliser des outils comme GNU stow, etc.</blockquote>  
 
 
 <!-- BLOG-POST-LIST:END -->
