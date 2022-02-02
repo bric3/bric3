@@ -27,16 +27,16 @@ Here are some ideas to get you started:
 # Latest blog posts
 <!-- BLOG-POST-LIST:START -->
 - 2021-09-04 : [**A practical look at JEP-412 in JDK17 with libsodium**](https://blog.arkey.fr/2021/09/04/a-practical-look-at-jep-412-in-jdk17-with-libsodium/)  
-    <blockquote>&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;JDK 17 is coming and with the incubating JEP-412, let’s have a practical look at this API that should supersede JNI.&lt;/p&gt;<br>&lt;/div&gt;</blockquote>  
+    <blockquote>JDK 17 is coming and with the incubating JEP-412, let’s have a practical look at this API that should supersede JNI.&lt;br&gt;</blockquote>  
 
 - 2021-02-20 : [**A practical look at JEP-389 in JDK16 with libsodium**](https://blog.arkey.fr/2021/02/20/a-practical-look-at-jep-389-in-jdk16-with-libsodium/)  
-    <blockquote>&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;JDK 16 is coming and with the incubating JEP-389, let’s have a practical look at this API that should supersede JNI.&lt;/p&gt;<br>&lt;/div&gt;</blockquote>  
+    <blockquote>JDK 16 is coming and with the incubating JEP-389, let’s have a practical look at this API that should supersede JNI.&lt;br&gt;</blockquote>  
 
 - 2020-12-11 : [**Anonymous CompletableFuture threads with burstable pods**](https://blog.arkey.fr/2020/12/11/completablefuture-with-burstable-pods/)  
-    <blockquote>&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;It all started when opening a JFR recording, I noticed a very large and growing number of very short lived threads.&lt;/p&gt;<br>&lt;/div&gt;</blockquote>  
+    <blockquote>It all started when opening a JFR recording, I noticed a very large and growing number of very short lived threads.&lt;br&gt;</blockquote>  
 
 - 2020-11-30 : [**Off-Heap memory reconnaissance**](https://blog.arkey.fr/2020/11/30/off-heap-reconnaissance/)  
-    <blockquote>&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;Understand the RSS of a JVM leveraging the horsepower underneath &lt;code&gt;ps&lt;/code&gt; with the help of one or two JVM diagnostic command.&lt;/p&gt;<br>&lt;/div&gt;</blockquote>  
+    <blockquote>Understand the RSS of a JVM leveraging the horsepower underneath &lt;code&gt;ps&lt;/code&gt; with the help of one or two JVM diagnostic command.&lt;br&gt;</blockquote>  
 
 - 2020-10-26 : [**MaxRamPercentage is not what I wished for**](https://blog.arkey.fr/2020/10/27/maxrampercentage-is-not-what-i-wished-for/)  
     <blockquote>This entry has been marinating for most of the year 2020. I should have published this opinion way earlier maybe end of 2019, but it took me time to realise I should split a bigger piece in smaller articles that hopefully made sense on their own.</blockquote>  
