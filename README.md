@@ -26,6 +26,9 @@ Here are some ideas to get you started:
 
 # Latest blog posts
 <!-- BLOG-POST-LIST:START -->
+- 2022-05-15 : [**Using Linux&#39;s memfd_secret syscall from the JVM with JEP-419**](https://blog.arkey.fr/2022/05/16/linux_memfd_secret_with_jep-419/)  
+    <blockquote>Linux 5.14 brought a new system call &lt;code&gt;memfd_secret&lt;/code&gt; in order to mitigate speculative attack by preventing the kernel from being able to peek at these memory segments. Let’s use this syscall from the JVM with the JEP-419 API.&lt;br&gt;</blockquote>  
+
 - 2021-09-04 : [**A practical look at JEP-412 in JDK17 with libsodium**](https://blog.arkey.fr/2021/09/04/a-practical-look-at-jep-412-in-jdk17-with-libsodium/)  
     <blockquote>JDK 17 is coming and with the incubating JEP-412, let’s have a practical look at this API that should supersede JNI.&lt;br&gt;</blockquote>  
 
@@ -52,9 +55,6 @@ Here are some ideas to get you started:
 
 - 2020-04-23 : [**Tackling Hugo Integration of Asciidoctor**](https://blog.arkey.fr/2020/04/23/tackling-hugo-integration-of-asciidoctor/)  
     <blockquote>Integrate Asciidoctor as everyone should expect While Hugo comes with Asciidoctor support, they are in reality several issues to account for at this time: While basic rendering of asciidoc files works, we soon encounter problems ; the very first</blockquote>  
-
-- 2020-04-20 : [**Migrating From Jekyll to Hugo, deploying with Github Pages**](https://blog.arkey.fr/2020/04/20/migrating-from-jekyll-to-hugo-deploying-with-github-pages/)  
-    <blockquote>Moving away form Jekyll. Import is easy, but tackling important details &lpar;conserve links to article, conserve comments, migrate some jekyll liquid template, theme tweaking deployment&rpar; has been challenging sometime.</blockquote>  
 
 
 <!-- BLOG-POST-LIST:END -->
