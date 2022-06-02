@@ -1,7 +1,7 @@
 name: Latest posts workflow
 on:
  schedule:
-   - cron: '0 * * * *' 
+   - cron: '30 12,22 * * *' # Runs at 12:30 and 22:30 UTC every day.
  workflow_dispatch: 
 jobs:
  update-readme-with-blog:
