@@ -26,6 +26,9 @@ Here are some ideas to get you started:
 
 # Latest blog posts
 <!-- BLOG-POST-LIST:START -->
+- 2022-10-16 : [**Switching from Disqus to Giscus &lpar;GitHub Discussions&rpar;**](https://blog.arkey.fr/2022/10/16/moving-from-disqus-to-giscus/)  
+    <blockquote>In the story of this blog I used WordPress, and using the WordPress comments then moved to Discus as it was better at handling spam. Then I switched this blog to GitHub with first Jekyll with markdown then finally to Hugo, this worked well enough.</blockquote>  
+
 - 2022-05-15 : [**Using Linux&#39;s memfd_secret syscall from the JVM with JEP-419**](https://blog.arkey.fr/2022/05/16/linux_memfd_secret_with_jep-419/)  
     <blockquote>Linux 5.14 brought a new system call &lt;code&gt;memfd_secret&lt;/code&gt; in order to mitigate speculative attack by preventing the kernel from being able to peek at these memory segments. Let’s use this syscall from the JVM with the JEP-419 API.&lt;br&gt;</blockquote>  
 
@@ -52,9 +55,6 @@ Here are some ideas to get you started:
 
 - 2020-06-28 : [**Using JDK FlightRecorder and JDK Mission Control**](https://blog.arkey.fr/2020/06/28/using-jdk-flight-recorder-and-jdk-mission-control/)  
     <blockquote>JDK Flight Recorder, the profiler you can use in production, continuously. Flight Recorder has been available before in the JDK, e.g. it shipped as part of the JDK 8, but to use it, it demanded a to set specific commercial VM flags to unlock FlightRecorder, this is not anymore necessary with Java 11.</blockquote>  
-
-- 2020-04-23 : [**Tackling Hugo Integration of Asciidoctor**](https://blog.arkey.fr/2020/04/23/tackling-hugo-integration-of-asciidoctor/)  
-    <blockquote>Integrate Asciidoctor as everyone should expect While Hugo comes with Asciidoctor support, they are in reality several issues to account for at this time: While basic rendering of asciidoc files works, we soon encounter problems ; the very first</blockquote>  
 
 
 <!-- BLOG-POST-LIST:END -->
