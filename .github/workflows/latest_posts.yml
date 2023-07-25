@@ -1,25 +1,26 @@
 name: Latest posts workflow
 on:
- schedule:
-   - cron: '30 12,22 * * *' # Runs at 12:30 and 22:30 UTC every day.
- workflow_dispatch: 
+  schedule:
+    - cron: '30 12,22 * * *' # Runs at 12:30 and 22:30 UTC every day.
+  workflow_dispatch:
+  push: { branches: [ "master", "main" ] }
 jobs:
- update-readme-with-blog:
-   name: Update this repo's README with latest blog posts
-   runs-on: ubuntu-latest
-   steps:
-     - uses: actions/checkout@v2
-     - uses: gautamkrishnar/blog-post-workflow@master
-       with:
-         feed_list: "https://blog.arkey.fr/posts/index.xml"
-         max_post_count: 10
-         template: "- $date : [**$title**]($url)  $newline    <blockquote>$description</blockquote>  $newline$newline"
-         date_format: yyyy-mm-dd
-         tag_post_pre_newline: true
-         item_exec: |
-                    post.description = post.description.replace(/(?:\r\n|\r|\n)/, '').replace(/(?:\r\n|\r|\n)+$/, '')
-                                                       .replace(/(?:\r\n|\r|\n)/g, '<br>')
-                                                       .replace(/<\/?(div|p)[^>]*>/g, '')
-                                                       .trim();
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://blog.arkey.fr/posts/index.xml"
+          max_post_count: 10
+          template: "- $date : [**$title**]($url)  $newline    <blockquote>$description</blockquote>  $newline$newline"
+          date_format: yyyy-mm-dd
+          tag_post_pre_newline: true
+          item_exec: |
+            post.description = post.description.replace(/(?:\r\n|\r|\n)/, '').replace(/(?:\r\n|\r|\n)+$/, '')
+                                               .replace(/(?:\r\n|\r|\n)/g, '<br>')
+                                               .replace(/<\/?(div|p)[^>]*>/g, '')
+                                               .trim();
 
                     
