@@ -62,5 +62,6 @@ Here are some ideas to get you started:
 
 # Stats
 
-![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bric3&layout=compact)
-![gh stats](https://github-readme-stats.vercel.app/api?username=bric3&count_private=true)
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>
