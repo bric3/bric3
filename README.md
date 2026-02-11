@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 
 # Latest blog posts
 <!-- BLOG-POST-LIST:START -->
-- 2026-02-08 : [**10+ reasons to NOT use JDK&#39;s HttpClient**](https://blog.arkey.fr/2026/02/08/ten-reasons-to-not-use-jdk-httpclient/)  
+- 2026-02-08 : [**10 or more reasons to NOT use JDK&#39;s HttpClient**](https://blog.arkey.fr/2026/02/08/ten-reasons-to-not-use-jdk-httpclient/)  
     <blockquote>This article explains 10+ reasons why after 14 JDK releases the JDK’s &lt;code&gt;HttpClient&lt;/code&gt; introduced with Java 11 is unlikely to be the best option in your app.</blockquote>  
 
 - 2022-10-16 : [**Switching from Disqus to Giscus &lpar;GitHub Discussions&rpar;**](https://blog.arkey.fr/2022/10/16/moving-from-disqus-to-giscus/)  
