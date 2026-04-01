@@ -33,8 +33,8 @@ Here are some ideas to get you started:
 - 2022-10-16 : [**Switching from Disqus to Giscus &lpar;GitHub Discussions&rpar;**](https://blog.arkey.fr/2022/10/16/moving-from-disqus-to-giscus/)  
     <blockquote>In the story of this blog I used WordPress, and using the WordPress comments&lt;br&gt;then moved to Discus as it was better at handling spam. Then I switched this&lt;br&gt;blog to GitHub with first Jekyll with markdown then finally to Hugo, this worked&lt;br&gt;well enough. Then lately I’ve been a bit more displeased by the Disqus editing&lt;br&gt;capability &lpar;no markdown &lpar;or asciidoc&rpar; support, no preview&rpar;. More people&lt;br&gt;tend to have a GitHub account than a Disqus account &lpar;for tech blogs&rpar;.&lt;br&gt;Also, GitHub introduced GitHub Discussions which was appealing to use with blogs.&lt;br&gt;</blockquote>  
 
-- 2022-05-15 : [**Using Linux’s memfd_secret syscall from the JVM with JEP-419**](https://blog.arkey.fr/2022/05/16/linux_memfd_secret_with_jep-419/)  
-    <blockquote>Linux 5.14 brought a new system call &lt;code&gt;memfd_secret&lt;/code&gt; in order to mitigate speculative attack by preventing the kernel from being able to peek at these memory segments. Let’s use this syscall from the JVM with the JEP-419 API.</blockquote>  
+- 2022-05-15 : [**Using Linux’s memfd_secret syscall from the JVM with JEP-419 JEP-454**](https://blog.arkey.fr/2022/05/16/linux_memfd_secret_with_jep-419/)  
+    <blockquote>Linux 5.14 brought a new system call &lt;code&gt;memfd_secret&lt;/code&gt; in order to mitigate speculative attack by preventing the kernel from being able to peek at these memory segments. Let’s use this syscall from the JVM with the &lt;sub&gt;~JEP-419&lt;/sub&gt;~ JEP-454 API.</blockquote>  
 
 - 2021-09-04 : [**A practical look at JEP-412 in JDK17 with libsodium**](https://blog.arkey.fr/2021/09/04/a-practical-look-at-jep-412-in-jdk17-with-libsodium/)  
     <blockquote>JDK 17 is coming and with the incubating JEP-412, let’s have a practical look at this API that should supersede JNI.</blockquote>  
