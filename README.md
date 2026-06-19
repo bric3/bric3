@@ -3,6 +3,7 @@
 # Get in touch
 
 - Blog (en|fr) : https://blog.arkey.fr/
+- Bluesky: https://bsky.app/profile/bricedutheil.bsky.social
 - Twitter : https://twitter.com/BriceDutheil
 - Mastodon : https://mastodon.xyz/@BriceDutheil
 - LinkedIn : https://linkedin.com/in/dutheilbrice
